@@ -5,10 +5,11 @@
 }
 
 .card {
+	background-image: url("back.jpg");
 	height: 200px;
 	width: 150px;
 	border: solid rgb(0,0,0) 1px;
-	background: rgb(255, 224, 50);
+	background: rgb(255, 224, 0);
 	border-radius: 10px;
 	float: left;
 	margin: 8%;
@@ -53,4 +54,9 @@ footer {
 }
 header {
 	text-align: center;
+}
+
+img {
+	height: 200px;
+	width: 150px; 
 }
