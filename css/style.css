@@ -5,7 +5,7 @@
 }
 
 .card {
-	background-image: url("back.jpg");
+	/*background-image: url("back.jpg");*/
 	height: 200px;
 	width: 150px;
 	border: solid rgb(0,0,0) 1px;
@@ -51,6 +51,9 @@ font-size: 0;
 footer {
 	background: #808080;
 	text-align: center;
+	position: fixed;
+	bottom: 0;
+	display: block;
 }
 header {
 	text-align: center;
